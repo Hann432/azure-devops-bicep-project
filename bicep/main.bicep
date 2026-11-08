@@ -1,7 +1,7 @@
 @description('Azure Storage account name')
 @minLength(3)
 @maxLength(24)
-param storageAccountName string
+param storageAccountName = 123
 
 @description('Azure region')
 param location string = resourceGroup().location
